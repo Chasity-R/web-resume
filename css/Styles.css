@@ -1,0 +1,94 @@
+﻿/*
+Author: Chasity Roberts
+Created: Jan 8, 2016
+Updated: Jan 21, 2016
+*/
+body
+{
+	width:90%;
+	margin-top:20px;
+	margin-Bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+/* shorthand of margin*/
+	margin:20px auto;
+
+	background-color:#ffff66;
+		color:black;
+		font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+		font-size:20px;
+		line-height:1.5em;
+}
+
+
+h1{
+	text-align:center;
+	font-style:none;
+	font-weight:normal;
+	padding-bottom:0.5em;
+	font-size:3em;
+	text-decoration:none;
+	border-bottom-width:2px;
+	border-bottom-style:solid;
+	border-bottom-style:solid;
+	border-bottom-color:brown;
+
+}
+a{
+	color:#cc3300;
+	font-weight:bold;
+	text-decoration:none;
+	text-text-transform:uppercase;
+}
+a:hoover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+
+
+
+.red{
+	color:black;
+}
+
+header{
+	background-color:#ffff66;
+	color:black;
+	border-bottom-color:#996600;
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+	padding:10px;
+}
+
+#pageTitle h1{
+	border:none;
+	text-align:left;
+	font-size:2em;
+	padding-bottom:0;
+}
+
+nav {text-align:right;}
+
+nav a{
+	margin-left:20px;
+	background-color:#993300;
+	padding:15px;
+	color:black;
+	border-radius: 5px;
+}
+
+nav a:hover{
+	background-color:#cc3300;
+	text-decoration:none;
+}
+
+img{
+	max-width:100%;
+	width:auto;
+	height:auto;
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	box-sizing:border-box;
+}
